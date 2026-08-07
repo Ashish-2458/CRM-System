@@ -47,4 +47,4 @@ Copy `.env.example` to `.env` and adjust as needed:
 
 ## Deployed URL
 
-<!-- TODO: Add Railway deployment URL here -->
+https://crm-system-production-7b64.up.railway.app
