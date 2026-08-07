@@ -8,6 +8,9 @@ from fastapi.responses import FileResponse
 from backend.database import engine, Base
 from backend.routers import tickets
 
+# Ensure data directory exists (needed for SQLite on Railway)
+Path("data").mkdir(exist_ok=True)
+
 # Create all tables on startup
 Base.metadata.create_all(bind=engine)
 

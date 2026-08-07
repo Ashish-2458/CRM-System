@@ -127,8 +127,14 @@
   - Confirm `README.md` contains local setup instructions and deployed URL placeholder
   - _Requirements: 8.1, 8.2_
 
-- [ ] 11. (Optional) Backend API tests
-- [ ]* 11.1 Write backend API tests
+- [x] 11. (Optional) Backend API tests
+
+
+
+
+- [x]* 11.1 Write backend API tests
+
+
   - Write `backend/test_main.py` using FastAPI TestClient
   - Cover: create ticket, list tickets, get ticket by ID, update status, add note, 404 on missing ticket
   - _Requirements: 2.1, 2.3, 3.1, 6.1, 7.5, 7.6_
